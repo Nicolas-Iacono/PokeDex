@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="fondo">
+          <div class="pokedex container">
+
+        <header>
+                <div class="lector"></div>
+                <div class="logo">
+                    <h2>Pokedex</h2>
+                    <img src="img/png-transparent-pokemon-go-gotcha-video-game-jynx-pokeball-orange-pokemon-technology.png" width="40px" height="40px" alt="" style="border-radius: 50%; ">
+                </div>
+
+        </header>
+        <section class="visorPokemon">
+            <img id="visorPokemonImagen" src="" alt="" width="350px">
+        </section>
+
+        <section class="controles">
+            
+                <form action="">
+                    <div class="tipoPokemon pantallaVerde">
+
+                <div class="seleccionPersonaje">
+                    <label class="nombreLabel" for="nombre">Nombre:</label>
+                    <input class="nombre" type="text" name="nombre" id="nombrePokemon">
+                </div>
+                    
+                
+                <h4>tipo:</h4>
+            </div>
+            <div class="controlesBajos">
+                
+                <div class="joistickContainer">
+                    <div class="joistick"></div>
+
+                </div>
+                <div class="visorDescripcion pantallaVerde">
+                    <h2 class="nombreDescripcion"></h2>
+                    <h4 class='habilidades'>habilidades</h4>
+                    <ul class="lista habilidad" id="listaHabilidad">
+                       
+                      
+                    </ul>
+
+                    <ul class="efectos">
+                        <li class="vida"><img src="img/vida.png" alt="" width="25px" height="25px"><p class="estadistica"></p></li>
+                        <li class="poder"><img src="img/relampago.png" alt="" width="25px" height="25px"><p class="estadistica"></p></li>
+                        <li class="precision"><img src="img/shield_3077175.png" alt=""  width="25px" height="25px"><p class="estadistica"></p></li>
+                    </ul>
+
+                </div>
+            
+                    <div class="botones">
+                        <div class= "boton1">
+                            <div class="btnCuadrado btnCentrar"><i class='bx bx-x bx-md'></i></div>
+                        </div>
+                        <div div class="boton2">
+                            <button class="btnTilde btnCentrar"><i class='bx bx-check bx-lg'></i></button>
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+          
+        </section>
+
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

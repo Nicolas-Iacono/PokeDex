@@ -1,0 +1,250 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 203, 10);
+}
+.fondo{
+    background-image: url("img/pokemon_logo_wallpaper_by_simplewallpapers_d5yo2e6-fullview.jpg");
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.pokedex{
+    width: 40rem;
+    height: 62rem;
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 30rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.lector{
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(43, 192, 226);
+    border-radius: 50%;
+    border: 2px double black;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    justify-content: space-evenly;
+}
+
+.logo h2{
+    font-size: 1.5rem;
+    
+}
+
+.visorPokemon{
+    width: 32rem;
+    height: 32rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 2px solid black;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.controles{
+    width: 90%;
+    margin: 0 auto;
+    height:16rem;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.tipoPokemon{
+    width: 98%;
+    height: 3rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.controlesBajos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    
+}
+.pantallaVerde{
+    background-color: rgb(57, 118, 57);
+    border: 2px solid black;
+}
+
+.visorDescripcion{
+    width: 22rem;
+    height: 11rem;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+
+
+
+.btnCuadrado{
+    background-color: rgb(132, 13, 13);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: double red 1px;
+}
+.btnTilde{
+    background-color: rgb(33, 132, 13);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: double greenyellow 1px;
+}
+.botones{
+    width: 5rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boton1{
+    display: flex;
+    justify-content: flex-start;
+}
+.boton2{
+    display: flex;
+    justify-content: center;
+}
+
+.joistickContainer{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+  
+}
+
+.joistick{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(87, 86, 86);
+
+}
+
+.joistick::before{
+    position:absolute;
+    content: "";
+    height:6rem;
+    width: 2.5rem;
+    right: 1.7rem;
+    bottom:-1.8rem;
+    background-color: rgb(87, 86, 86);
+}
+
+.btnCentrar{
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+}
+
+.nombre {
+    border:none;
+    background-color: rgb(57, 118, 57);
+    width:13rem;
+    height: 1.8rem;
+    color: white;
+    font-size: 1.8rem;
+}
+.nombreLabel{
+    font-size: 1.6rem;
+}
+.seleccionPersonaje{
+    width: 22rem;
+}
+form{
+    height: 100%;
+}
+
+.habilidades{
+    font-size: 1.5rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+    justify-content: space-around;
+}
+
+.efectos{
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+.efectos li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+
+.efectos li img{
+    filter: invert(100%);
+
+}
+
+#listaHabilidad li{
+    font-size: 1.8rem;
+}
+
+.estadistica{
+    font-size: 1.6rem;
+    width: 4rem;
+}
